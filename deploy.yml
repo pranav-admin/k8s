@@ -4,7 +4,7 @@ metadata:
   namespace: dev
   name: myapp-deploy
 spec:
-  replicas: 13
+  replicas: 3
   selector:
     matchLabels:
       app: nginx
