@@ -1,9 +1,10 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
+  namespace: dev
   name: myapp-deploy
 spec:
-  replicas: 3
+  replicas: 13
   selector:
     matchLabels:
       app: nginx
